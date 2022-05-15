@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="styleSheet" href="css/main.css">
+    <title>YouTube</title>
+</head>
+<body>
+    
+    <div class="Container">
+        <nav>
+            <img width="30px" src="img/Menu_48px_2.png" style="float: right;margin-right: 38px;">
+            <a>YouTube</a>
+            <img class="imgAccount" width="50px" src="img/priscilla-du-preez-c2ldRce-6vM-unsplash.jpg" onclick="window.open('sign.html')">
+            <img width="25px" src="img/Notification_50px.png">
+            <img width="25px" src="img/Settings_50px_1.png">
+            <img width="25px" src="img/Search_48px.png" class="imgSearch">
+            <input type="search" class="search">
+        </nav>
+        <div class="videoplay">
+
+            <div class="show">
+                <video width="800" id="video" src="video/Video Inside A Library.mp4"></video>
+                <p style="position: fixed;">Lorem ipsum dolor sit amet consectetur adipisicing elit. Omnis doloribus unde esse ab voluptates maiores <br>similique iusto provident, at magnam laborum odit dolorum ea! Ratione quo molestiae repellendus harum.</p>
+            </div>
+            <div class="controls">
+                <input type="range" min="0" max="" value="0" class="range">
+                <input type="button" value="Play">
+                <input type="button" value="Pause">
+                <input type="button" value="Restart">
+                <input type="button" value="FullScreen" class="fullScreen">
+            </div>
+        </div>
+
+        <div class="listVideo">
+            <div class="show">                
+                <video width="250" id="video2" src="video/Sherlock Intro Season 1.mp4" ></video>
+            </div>
+            <div class="show">
+                <video width="250" id="video3" src="video/PiXAR.mp4"></video>
+            </div>
+            <div class="show">
+                <video width="250" id="video4" src="video/Video Inside A Library.mp4"></video>
+            </div>
+        </div>
+    </div>
+
+
+    <script src="js/main.js"></script>
+
+</body>
+</html>

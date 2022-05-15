@@ -1,0 +1,108 @@
+body{
+    margin: 0;
+    padding: 0;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    background-color: #181818;
+    color: white;
+}
+nav{
+    background-color: #202020;
+    height: 60px;
+}
+
+nav a{
+    color: white;
+    font-size: 20px;
+    font-weight: bold;
+    float: right;
+    margin-right: -5px;
+    margin-top: 12px;
+}
+
+nav img{
+    margin-left: 30px;
+    margin-top: 7px !important;
+}
+
+nav .imgAccount{
+    border-radius: 50%;
+    margin-left: 30px;
+    margin-top: 12px;
+}
+
+.videoplay{
+    float: right;
+    margin-right: 95px;
+    margin-top: 30px;
+}
+
+.listVideo{
+    margin-top: 30px;
+    float: right;
+    color: white;
+}
+
+.listVideo .show{
+    margin-bottom: 10px;
+    margin-right: 35px;
+}
+
+.range{
+    display: block;
+    width: 796px;
+    height: 6px;
+    transform: translate(0%, -50%);
+    margin-left: 0 !important;
+}
+
+.controls{
+    margin-top: -46px;
+    position: absolute;
+}
+
+.fullScreen{
+    float: right;
+    margin-right: 15px;
+}
+
+.search{
+    background-color: #151515;
+    border: 1px solid #151515;
+    color: white;
+    font-size: 16px;
+    width: 500px;
+    height: 28px;
+}
+
+.imgSearch{
+    display: inline-block;
+    background-color: #353535;
+    margin-left: 253px;
+    padding: 2px 26px;
+    margin-bottom: -9px;
+}
+
+.controls input{
+    border: 1px solid #fff;
+    border-radius: 40px;
+    background-color: #fff;
+    cursor: pointer;
+    margin-left: 8px;
+    font-weight: bold;
+}
+
+/* sign page */
+form{
+    background-color: #353535;
+    display: inline-block;
+    padding: 70px;
+    margin-left: 50%;
+    margin-left: 38%;
+    margin-top: 10%;
+}
+form input{
+    background-color: #181818;
+    color: white;
+    margin: 10px;
+    height: 28px;
+}
